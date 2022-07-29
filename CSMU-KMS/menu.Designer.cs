@@ -202,9 +202,9 @@
             this.ProgramInfo.Location = new System.Drawing.Point(665, 581);
             this.ProgramInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ProgramInfo.Name = "ProgramInfo";
-            this.ProgramInfo.Size = new System.Drawing.Size(361, 17);
+            this.ProgramInfo.Size = new System.Drawing.Size(373, 17);
             this.ProgramInfo.TabIndex = 10;
-            this.ProgramInfo.Text = "Program designed by Liu, Tzu-Hao. 2022 / 02 / 16 v1.3";
+            this.ProgramInfo.Text = "Program designed by Liu, Tzu-Hao. 2022 / 02 / 16 v1.4.1";
             // 
             // menuStrip1
             // 
@@ -216,7 +216,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 27);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -225,7 +225,7 @@
             this.工具ToolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.清除目前OfficeToolStripMenuItem});
             this.工具ToolsToolStripMenuItem.Name = "工具ToolsToolStripMenuItem";
-            this.工具ToolsToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
+            this.工具ToolsToolStripMenuItem.Size = new System.Drawing.Size(94, 23);
             this.工具ToolsToolStripMenuItem.Text = "工具 Tools";
             // 
             // 清除目前OfficeToolStripMenuItem
@@ -239,7 +239,7 @@
             // ChangeToNTHUMode
             // 
             this.ChangeToNTHUMode.Name = "ChangeToNTHUMode";
-            this.ChangeToNTHUMode.Size = new System.Drawing.Size(128, 24);
+            this.ChangeToNTHUMode.Size = new System.Drawing.Size(128, 23);
             this.ChangeToNTHUMode.Tag = "0";
             this.ChangeToNTHUMode.Text = "切換到清華大學";
             this.ChangeToNTHUMode.Click += new System.EventHandler(this.切換到清華大學ToolStripMenuItem_Click);
@@ -247,7 +247,7 @@
             // 關於AboutToolStripMenuItem
             // 
             this.關於AboutToolStripMenuItem.Name = "關於AboutToolStripMenuItem";
-            this.關於AboutToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
+            this.關於AboutToolStripMenuItem.Size = new System.Drawing.Size(99, 23);
             this.關於AboutToolStripMenuItem.Text = "關於 About";
             this.關於AboutToolStripMenuItem.Click += new System.EventHandler(this.關於AboutToolStripMenuItem_Click);
             // 
@@ -267,8 +267,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "menu";
-            this.Text = "中山醫學大學 Microsoft 校園授權軟體啟動程式 v1.4";
+            this.Text = "中山醫學大學 Microsoft 校園授權軟體啟動程式 v1.4.1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);

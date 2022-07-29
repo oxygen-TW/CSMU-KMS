@@ -204,7 +204,7 @@ namespace CSMU_KMS
 
         private void 關於AboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string authorText = "CSMU-KMS GUI v1.4\nLiu, Tzu-Hao CSMT-107";
+            string authorText = "CSMU-KMS GUI v1.4.1\nLiu, Tzu-Hao CSMT-107";
             string sourceText = "Source:\nKMS script from CSMU, NTHU and alternate script from DYU.";
             string iconCredit = "Credit:\nWrench icons created by Freepik-Flaticon";
 
